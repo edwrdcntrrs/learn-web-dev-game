@@ -3,7 +3,7 @@
 Pages rebuilt from a dead internet, one day at a time, while learning web
 development from scratch.
 
-**1 page restored · 380 XP**
+**2 pages restored · 770 XP**
 
 Every file here is hand-written. No framework, no static site generator, no
 edits after the fact — each page is published exactly as it was when its checks
@@ -12,6 +12,7 @@ passed.
 | Day | Artifact | What it is |
 | --- | --- | --- |
 | 1 | `index.html` | The first page brought back online since the Collapse. |
+| 2 | `junction.html` | A working junction page. Three routes out, all of them live. |
 
 ---
 
