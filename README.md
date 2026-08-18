@@ -3,7 +3,7 @@
 Pages rebuilt from a dead internet, one day at a time, while learning web
 development from scratch.
 
-**6 pages restored · 2,480 XP**
+**7 pages restored · 3,000 XP**
 
 Every file here is hand-written. No framework, no static site generator, no
 edits after the fact — each page is published exactly as it was when its checks
@@ -17,6 +17,7 @@ passed.
 | 4 | `ledger.html` | A supply ledger with real tabular structure. Machine-readable at last. |
 | 5 | `dispatch.html` | A page with real bones. Navigable by landmark, not by guesswork. |
 | 6 | `intake.html` | A survivor intake form. Labelled, typed, and validating before a line of JS. |
+| 7 | `archive/index.html` | The homepage of the reclaimed archive. Structure, media, data, and a way in. |
 
 ---
 

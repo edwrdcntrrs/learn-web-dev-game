@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Added by RECLAIM: renders this page the way it looked in the preview,
+         instead of letting a dark-mode browser recolour your unstyled page. -->
+    <meta name="color-scheme" content="light" />
+    <meta charset="UTF-8" />
+    <title>The Archive</title>
+  </head>
+  <header>
+    <h1>Informations</h1>
+    <nav>
+      <ul>
+        <li> <a href="#about">About</a></li>
+        <li> <a href="#recovered">Recovered</a></li>
+        <li> <a href="#supplies">Supplies</a></li>
+        <li> <a href="#intake">Intake</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+<!-- ===================================================================
+     Added automatically by RECLAIM when this page was published.
+     Everything after this block is exactly the code you wrote.
+     =================================================================== -->
+<div style="font:600 13px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:#0d1218;color:#8b99a8;padding:10px 16px;border-bottom:1px solid #1e2833;">
+  <a href="./index.html" style="color:#4ade80;text-decoration:none;">&larr; The Archive</a>
+  <span style="margin:0 8px;opacity:.4;">/</span>
+  <span>Day 7 — The Archive Homepage</span>
+  <span style="margin:0 8px;opacity:.4;">/</span>
+  <span style="color:#5c6875;">Step 1 of 1: The Front Door</span>
+</div>
+<!-- =================== end of RECLAIM banner ======================= -->
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>About the <strong>current status</strong>  in every stations.</p>
+        <p>This has been <em>verified</em> by the designated person.</p>
+      </section>
+      <section id="recovered">
+        <h2>Recovered</h2>
+        <figure>
+          <img src="assets/tower.svg" alt="radio tower with green light at top" width="360" height="300">
+          <figcaption>Radio tower showing fully operational</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/archive.svg" alt="data center with green lights" width="360" height="300">
+          <figcaption>Data center showing online status</figcaption>
+        </figure>
+      </section>
+      <section id="supplies">
+        <h2>Supplies</h2>
+        <table>
+          <caption>Remaining supplies</caption>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Days left</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Water</th>
+              <td>10</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <th scope="row">Canned food</th>
+              <td>50</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <th scope="row">Coffee</th>
+              <td>30</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="intake">
+        <h2>Intake</h2>
+        <form>
+          <label for="callsign">Name</label>
+          <input type="text" id="callsign" name="callsign" required/>
+          <label for="contact">Email</label>
+          <input type="email" id="contact" name="contact" required/>
+          <label for="sector">Select sector</label>
+          <select id="sector" name="sector">
+            <option value="sector-1">Sector 1</option>
+            <option value="sector-2">Sector 2</option>
+            <option value="sector-3">Sector 3</option>
+          </select>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <aside>
+        <h2>List of requirements</h2>
+        <ul>
+          <li>Identification Card</li>
+          <li>Endorsement</li>
+          <li>Badge</li>
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <p>Expected recovery data: <time datetime="2041-03-14">14 March</time></p>
+    </footer>
+    <!--
+      Build outside-in.
+
+      1. Put <header>, <main> and <footer> in place first.
+      2. Then the <h1>, the <nav>, and the four <section> shells with their ids.
+      3. Then fill each section in, running the checks as you go.
+    -->
+
+  </body>
+</html>
