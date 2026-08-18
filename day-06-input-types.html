@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Added by RECLAIM: renders this page the way it looked in the preview,
+         instead of letting a dark-mode browser recolour your unstyled page. -->
+    <meta name="color-scheme" content="light" />
+    <meta charset="UTF-8" />
+    <title>Intake</title>
+  </head>
+  <body>
+<!-- ===================================================================
+     Added automatically by RECLAIM when this page was published.
+     Everything after this block is exactly the code you wrote.
+     =================================================================== -->
+<div style="font:600 13px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:#0d1218;color:#8b99a8;padding:10px 16px;border-bottom:1px solid #1e2833;">
+  <a href="./index.html" style="color:#4ade80;text-decoration:none;">&larr; The Archive</a>
+  <span style="margin:0 8px;opacity:.4;">/</span>
+  <span>Day 6 — The Intake Form</span>
+  <span style="margin:0 8px;opacity:.4;">/</span>
+  <span style="color:#5c6875;">Step 2 of 3: The Right Type</span>
+</div>
+<!-- =================== end of RECLAIM banner ======================= -->
+
+    <h1>Survivor Intake</h1>
+
+    <form>
+      <!-- Five labelled fields, then a submit button -->
+      <label for="contact">Contact address</label>
+      <input type="email" name="contact" id="contact" required/>
+      <label for="code">Access code</label>
+      <input type="password" id="code" name="code"/>
+      <label for="days">Days travelled</label>
+      <input type="number" min="0" max="365" id="days" name="days"/>
+      <label for="arrival">Date of arrival</label>
+      <input type="date" id="arrival" name="arrival" required/>
+      <label for="freq">Radio frequency</label>
+      <input type="tel" id="freq" name="freq"/>
+      <button type="submit">Submit</button>
+
+    </form>
+  </body>
+</html>

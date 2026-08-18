@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Added by RECLAIM: renders this page the way it looked in the preview,
+         instead of letting a dark-mode browser recolour your unstyled page. -->
+    <meta name="color-scheme" content="light" />
+    <meta charset="UTF-8" />
+    <title>Intake</title>
+  </head>
+  <body>
+<!-- ===================================================================
+     Added automatically by RECLAIM when this page was published.
+     Everything after this block is exactly the code you wrote.
+     =================================================================== -->
+<div style="font:600 13px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:#0d1218;color:#8b99a8;padding:10px 16px;border-bottom:1px solid #1e2833;">
+  <a href="./index.html" style="color:#4ade80;text-decoration:none;">&larr; The Archive</a>
+  <span style="margin:0 8px;opacity:.4;">/</span>
+  <span>Day 6 — The Intake Form</span>
+  <span style="margin:0 8px;opacity:.4;">/</span>
+  <span style="color:#5c6875;">Step 3 of 3: Full Intake</span>
+</div>
+<!-- =================== end of RECLAIM banner ======================= -->
+
+    <h1>Survivor Intake</h1>
+
+    <form>
+      <!-- 1. callsign -->
+      <label for="callsign">Callsign</label>
+      <input type="text" id="callsign" name="callsign" minlength="3" required/>
+
+      <!-- 2. fieldset + legend + three radios sharing name="arrival" -->
+      <fieldset>
+        <legend>Arrived by:</legend>
+        <input type="radio" name="arrival" id="foot" value="foot"/>
+        <label for="foot">By foot</label>
+        <input type="radio" name="arrival" id="car" value="car"/>
+        <label for="car">By car</label>
+        <input type="radio" name="arrival" id="bike" value="bike"/>
+        <label for="bike">By bike</label>
+      </fieldset>
+
+      <!-- 3. labelled select with three options -->
+      <label for=sector>Sector Number</label>
+      <select id="sector" name="sector">
+        <option value="1">Sector 1</option>
+        <option value="2">Sector 2</option>
+        <option value="3">Sector 3</option>
+      </select>
+
+      <!-- 4. labelled textarea -->
+      <label for=skills>Any skills?</label>
+      <textarea id="skills" name="skills">Describe your skills</textarea>
+
+      <!-- 5. required checkbox -->
+      <label for="confirm"></label>
+      <input type="checkbox" id="confirm" name="confirm" required <p>do you agree with terms</p>
+
+      <!-- 6. submit button -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
