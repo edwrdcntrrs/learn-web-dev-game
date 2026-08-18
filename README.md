@@ -3,7 +3,7 @@
 Pages rebuilt from a dead internet, one day at a time, while learning web
 development from scratch.
 
-**4 pages restored · 1,580 XP**
+**5 pages restored · 2,020 XP**
 
 Every file here is hand-written. No framework, no static site generator, no
 edits after the fact — each page is published exactly as it was when its checks
@@ -15,6 +15,7 @@ passed.
 | 2 | `junction.html` | A working junction page. Three routes out, all of them live. |
 | 3 | `contact-sheet.html` | Three recovered images, catalogued and described. |
 | 4 | `ledger.html` | A supply ledger with real tabular structure. Machine-readable at last. |
+| 5 | `dispatch.html` | A page with real bones. Navigable by landmark, not by guesswork. |
 
 ---
 
