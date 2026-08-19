@@ -1,0 +1,30 @@
+body {
+  background-color: #0f172a;
+  color: #d5dee8;
+  font-family: system-ui, sans-serif;
+}
+
+/* 1. .card background */
+.card {
+  background-color: #1e293b;
+}
+
+/* 2. #alert colour */
+#alert {
+  color: #f87171
+}
+
+/* 3. paragraphs inside main only */
+main p {
+  line-height: 1.7
+}
+
+/* 4. h2 and h3 in one rule */
+h2, h3 {
+  color:#fbbf24
+}
+
+/* 5. cards that are also urgent */
+.card.urgent {
+  border-left: 4px solid #f97316
+}

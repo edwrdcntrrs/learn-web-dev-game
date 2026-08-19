@@ -3,7 +3,7 @@
 Pages rebuilt from a dead internet, one day at a time, while learning web
 development from scratch.
 
-**7 pages restored · 3,000 XP**
+**8 pages restored · 3,570 XP**
 
 Every file here is hand-written. No framework, no static site generator, no
 edits after the fact — each page is published exactly as it was when its checks
@@ -18,6 +18,7 @@ passed.
 | 5 | `dispatch.html` | A page with real bones. Navigable by landmark, not by guesswork. |
 | 6 | `intake.html` | A survivor intake form. Labelled, typed, and validating before a line of JS. |
 | 7 | `archive/index.html` | The homepage of the reclaimed archive. Structure, media, data, and a way in. |
+| 8 | `styles.css` | The first stylesheet. Colour back in the network after a long time without. |
 
 ---
 
