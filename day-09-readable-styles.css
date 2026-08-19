@@ -1,0 +1,17 @@
+/* Everything here is legal CSS and all of it is a bad idea.
+   Replace it. */
+
+body {
+  font-family: system-ui, cursive, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #e2e8f0;
+  background-color: #0b1220;
+}
+main {
+  max-width: 68ch
+}
+h1 {
+  line-height: 1.15;
+  font-size: 2.4rem
+}
