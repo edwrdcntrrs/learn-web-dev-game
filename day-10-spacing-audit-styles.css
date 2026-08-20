@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #e2e8f0;
+  background-color: #0b1220;
+  /* 1. kill the default margin */
+  margin: 0
+}
+
+main {
+  max-width: 60ch;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.panel {
+  background-color: #111a2b;
+  border: 1px solid #263349;
+  /* 2. padding and bottom margin */
+  padding: 24px;
+  margin-bottom: 24px
+}
+
+/* 3. headings */
+h1,h2,h3 {
+  margin-top: 0
+}
+
+/* 4. paragraphs */
+p {
+  margin: 0 0 1em
+}
+
+/* 5. last child inside a panel */
+.panel > *:last-child {
+  margin-bottom: 0
+}

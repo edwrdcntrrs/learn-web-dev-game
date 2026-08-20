@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  color: #e2e8f0;
+  background-color: #0b1220;
+}
+
+main {
+  max-width: 46ch;
+  margin: 0 auto;
+}
+
+/* 1, 2. .tag */
+.tag {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #1e293b;
+  border-radius: 999px;
+}
+
+/* 3. .block-link */
+.block-link {
+  display: block;
+  padding: 12px;
+  background-color: #14532d
+}
+
+/* 4. .draft */
+.draft {
+  display: none
+}
+
+/* 5. .wide */
+.wide {
+  overflow-x: auto
+}
