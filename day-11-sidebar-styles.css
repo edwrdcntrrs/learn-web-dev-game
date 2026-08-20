@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  line-height: 1.65;
+  color: #e2e8f0;
+  background-color: #0b1220;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+.sidebar a {
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+/* 1, 6. .shell */
+.shell {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+/* 2, 4. .sidebar */
+.sidebar{
+  display: flex;
+  flex: 0 0 220px;
+  padding: 16px;
+  background-color: #111a2b
+}
+
+/* 3. .content */
+.content {
+  display: flex;
+  flex: 1
+}
+
+/* 5. the sidebar list */
+.sidebar ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 8px
+}

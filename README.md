@@ -3,7 +3,7 @@
 Pages rebuilt from a dead internet, one day at a time, while learning web
 development from scratch.
 
-**10 pages restored · 4,720 XP**
+**11 pages restored · 5,330 XP**
 
 Every file here is hand-written. No framework, no static site generator, no
 edits after the fact — each page is published exactly as it was when its checks
@@ -21,6 +21,7 @@ passed.
 | 8 | `styles.css` | The first stylesheet. Colour back in the network after a long time without. |
 | 9 | `typography.css` | Type set for reading rather than for decoration. Contrast that holds up. |
 | 10 | `boxes.css` | Spacing that was measured rather than nudged until it looked about right. |
+| 11 | `layout.css` | A real navigation bar and a row of cards. Laid out, not floated. |
 
 ---
 
